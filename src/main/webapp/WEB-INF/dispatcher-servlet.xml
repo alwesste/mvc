@@ -16,6 +16,9 @@
     <!-- Activation Spring MVC -->
     <mvc:annotation-driven/>
 
+    <!-- 🔥 RESSOURCES STATIQUES -->
+    <mvc:resources mapping="/resources/**" location="/resources/" />
+
     <!-- Tiles -->
     <bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
         <property name="definitions">

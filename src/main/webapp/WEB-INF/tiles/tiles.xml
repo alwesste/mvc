@@ -20,4 +20,11 @@
         <put-attribute name="title" value="Profil"/>
         <put-attribute name="body" value="/WEB-INF/views/profil.jsp"/>
     </definition>
+
+    <definition name="ajaxTest" extends="base.layout">
+        <put-attribute name="title" value="Page Ajax"/>
+        <put-attribute name="body" value="/WEB-INF/views/ajaxTest.jsp"/>
+    </definition>
+
+    <definition name="popup/modal" template="/WEB-INF/views/popup/modal.jsp"></definition>
 </tiles-definitions>
